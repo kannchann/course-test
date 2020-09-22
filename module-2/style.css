@@ -1,55 +1,65 @@
-h{
-	margin-left: 50%;
-	margin-bottom: 150px;
-	border-bottom: 350px;
-	padding: 
+h1{
 	text-align: center;
-	font-style: bold;
-	font-family: times new roman, serif;
-	color: gray;
-	font-size: 24px;
+	color:white;
+	margin-bottom:60px;
+}
+body{
+	background-color:black;
+    color: white;
+    overflow: auto;
+    text-align: center;
+   
+    padding-0;
 
 }
-body
-{
-	background-color: black;
+.momo:hover, .chilli:hover, .pizza:hover{
+	color:black;
 }
 *
 {
-	box-sizing: border-box;;
+	border-sizing:border-box;
 }
-#box
-{
-	background-color: gray;
-}
-.momo{
-	font-size: 18;
-	margin:20px;
-	border:20px;
-	border-color: green;
 
-	padding:20px;
-	width:300px;
-	color: white;
+.momo{
+     background-color: gray;
+
+     margin: 30px;
+     margin left-0;
+     width:60px;
+     border:20px;
+     padding: 30px;
+     position:relative;
+     padding-color:white;
+
+}
+.chilli{
+     background-color: gray;
+     margin:10px;
+     width:33.33%;
+     border:20px;
+     padding: 30px;
+     position:relative;
+     padding-color:white;
 
 }
 .pizza{
-	font-size: 18;
-	margin:20px;
-	border:20px;
-	border-color: green;
+     background-color: gray;
+     margin:30px;
+     width:60px;
+     border:20px;
+     padding: 30px;
+     padding-color:white;
 
-	padding:20px;
-	width:300px;
-	color: white;
 }
-.chilli{
-    ont-size: 18;
-	margin:20px;
-	border:20px;
-	border-color: green;
+@media(max-width: 956px)
+{
+	
+	.pizza{
+		position: absolute;
+		margin-top:40px;
+		right:90px
+		top:150px;
 
-	padding:20px;
-	width:300px;
-	color: white;
+		
+	}
 }
